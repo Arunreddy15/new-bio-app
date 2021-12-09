@@ -1,0 +1,153 @@
+@media screen and (min-width:776px) {
+  
+.navigation-links-mob{
+  display: none;
+}
+.nav-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 5vw;
+    max-height: 100vh;
+    transition: 0.9s;
+    color: black;
+    
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+  }
+  
+  .nav-inner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    color: black;
+  }
+  .navigation-links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+  .nav-links {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+  span {
+    color: #c70257;
+  }
+  .nav-btn {
+    border: 0;
+    border-radius: 3px;
+    background-color: transparent;
+    font-size: 16px;
+    margin: 10px 0;
+    transition: 0.5s;
+    color: white;
+    overflow: hidden;
+    transition: 0.5s;
+    text-align: center;
+  }
+  .nav-btn:hover {
+    color: #c70257;
+    /* transform: translateZ(10px); */
+  }
+  .logo {
+    font-family: Georgia, serif;
+    transition: 0.7s;
+    margin: 0 10px;
+    color: white;
+    font-size: 28px;
+  }
+  .logo:hover {
+    opacity: 0;
+    transition: 0.5s;
+  }
+  li {
+    list-style: none;
+  }
+  .ding:hover {
+    font-size: 35px;
+  }}
+  @media (max-width:766px){
+    .nav-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      bottom: 2%;
+      left: 0;
+      width: 100%;
+      height: 25px;
+z-index: 20;
+    }
+    .nav-inner-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      color: black;
+    }
+    .navigation-links {
+      display: none;
+    }
+    .navigation-links-mob{
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      transform: rotateY(10px);
+      height: auto;
+    }
+    .nav-links {
+      list-style: none;
+      text-decoration: none;
+      color: black;
+    }
+    span {
+      color: #c70257;
+    }
+    .nav-btn {
+      border: 0;
+      border-radius: 3px;
+      background-color: transparent;
+      font-size: 12px;
+      margin: 10px 0;
+      transition: 0.5s;
+      color: white;
+      overflow: hidden;
+      transition: 0.5s;
+      text-align: center;
+    }
+    .logo {
+      font-family: Georgia, serif;
+      transition: 0.7s;
+      margin: 0 10px ;
+      color: white;
+      font-size: 28px;
+    }
+    
+    li {
+      margin: 0 10px;
+      list-style: none;
+     transition-duration: 1s;
+    }
+    .ding:hover {
+      font-size: 35px;
+    }
+    .menuham{
+      color: white;
+      margin: 0 10px;
+    }
+    ul li h1{
+      color: white;
+      font-size: 15px;
+      
+    }
+  }
