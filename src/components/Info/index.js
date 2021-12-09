@@ -45,14 +45,14 @@ class Info extends Component {
                 <a href="mailto:arunreddyb15@gmail.com?subject=From ab.&body=Hi, You can reach me on +91 9110713426/8185968230 (Please remove this while messaging me!)">
                   <MdEmail className="icons" />
                 </a>
-                <a href="https://api.whatsapp.com/send?phone=8185968230">
+                <a href="https://api.whatsapp.com/send?phone=+91 8185968230">
                   <RiWhatsappFill className="icons" />
                 </a>
                 <a href="https://twitter.com/39832b40a3ee431">
                   <RiTwitterFill className="icons" />
                 </a>
                 <RiMessage3Fill className="icons" />
-                <a href="www.linkedin.com/in/baddam-arun-kumar-a56367177">
+                <a href="https://www.linkedin.com/in/baddam-arun-kumar-a56367177">
                   <GrLinkedinOption className="icons" />
                 </a>
               </div>
